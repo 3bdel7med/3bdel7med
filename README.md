@@ -1,16 +1,16 @@
 ## Hi there 👋
 
-<!--
-**3bdel7med/3bdel7med** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!--# Hi, I'm Abdelhamed Mgazy 👋
+### Full-Stack Developer | Laravel & Vue.js Expert
 
-Here are some ideas to get you started:
+Based in Cairo, Egypt, I build high-performance, scalable web applications and real-time interactive systems. I have a deep passion for clean architecture, RESTful API design, and robust DevOps practices.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 🛠️ **Current Tech Stack:** PHP (Laravel), JavaScript (Vue.js, Nuxt.js, Pinia), MySQL, Redis
+- 🐳 **DevOps & Infrastructure:** Docker, Kubernetes, CI/CD pipelines
+- ✉️ **Contact Me:** abdelhmedfthy3702@gmail.com
+- 💼 **LinkedIn:** [Insert your LinkedIn Link here]
+
+---
+### 🛠️ Featured Technical Projects
+*(See my pinned repositories below for codebases)*
 -->
