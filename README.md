@@ -34,18 +34,18 @@ Results-driven Full-Stack Software Engineer with expertise in building high-perf
 
 ### 🔥 Featured Projects
 
-#### ⚡ 1. [OptiQuery AI](https://github.com/3bdel7med) - Automated Database Optimization & Telemetry Platform
+#### ⚡ 1. [OptiQuery AI](https://github.com/3bdel7med/optiquery_ai) - Automated Database Optimization & Telemetry Platform
 > **Laravel | Vue.js 3 | Inertia.js | Gemini AI API | Laravel Reverb | Tailwind CSS**
 * **Real-Time Telemetry:** Engineered a platform that intercepts slow SQL queries using asynchronous background execution without impacting runtime performance[cite: 1].
 * **AI Optimization Engine:** Integrated Gemini AI Engine to parse SQL queries, evaluate Execution Plans (`EXPLAIN`), and generate optimized DDL index migrations[cite: 1].
-* **Broadcasting & SDK:** Built a real-time event pipeline via Laravel Reverb (WebSockets) to stream performance metrics to a developer dashboard with API key SDK integration[cite: 1].
+* **Broadcasting & SDK:** Built a real-time event pipeline via Laravel Reverb (WebSockets) to stream performance metrics to a developer dashboard with API key SDK integration].
 
-#### 🛒 2. [Bazzario](https://github.com/3bdel7med) - Multi-Vendor E-Commerce Platform
+#### 🛒 2. [Bazzario](https://github.com/3bdel7med/Bazzario-Multi_vendor_ecommerce) - Multi-Vendor E-Commerce Platform
 > **Laravel | Vue.js | Redis | FastAPI | Laravel Reverb**
-* **Multi-Auth Ecosystem:** Architected a multi-vendor marketplace with separate guards and 3 isolated dashboard ecosystems for Admin, Vendor, and Customer roles[cite: 1].
-* **Real-Time Chat & AI Auto-Reply:** Implemented live messaging using Laravel Reverb (Redis presence channels) alongside an LLM-powered auto-reply microservice built with FastAPI and Laravel queues[cite: 1].
+* **Multi-Auth Ecosystem:** Architected a multi-vendor marketplace with separate guards and 3 isolated dashboard ecosystems for Admin, Vendor, and Customer roles.
+* **Real-Time Chat & AI Auto-Reply:** Implemented live messaging using Laravel Reverb (Redis presence channels) alongside an LLM-powered auto-reply microservice built with FastAPI and Laravel queues].
 
-#### 💬 3. [Nexus](https://github.com/3bdel7med) - High-Performance Real-Time & AI Communication Platform
+#### 💬 3. [Nexus](https://github.com/3bdel7med/ChatApp) - High-Performance Real-Time & AI Communication Platform
 > **Laravel | WebSockets | WebRTC | Google Gemini API | Redis**
 * **Low-Latency Messaging:** Developed an event-driven messaging platform with low-latency WebSockets and offloaded media processing/AI tasks to Redis Queue Workers[cite: 1].
 * **AI & Media Calls:** Integrated Google Gemini API asynchronously and enabled real-time WebRTC signaling for audio/video calling and voice notes[cite: 1].
