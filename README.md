@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>👋 Hi, I'm Abdelhamed Fathy</h1>
-  <h3>Full-Stack Software Engineer | Laravel & AI Systems Specialist</h3>
+  <h3>Full-Stack Software Engineer | Laravel, Vue.js & AI Systems</h3>
 
   <p>
     <a href="https://linkedin.com/in/abdelhamed-fathy"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -9,14 +9,14 @@
     <a href="mailto:abdelhmedfthy3702@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   </p>
 
-  <p>📍 Cairo, Egypt | 💼 Open for On-site, Hybrid, or Remote roles</p>
+  <p>📍 Cairo, Egypt | 💼 Open to Full-Stack / Backend roles (Remote, Hybrid, or Relocation)</p>
 
 </div>
 
 ---
 
 ### 🚀 About Me
-Results-driven Full-Stack Software Engineer with expertise in building high-performance web applications, event-driven real-time architectures, and integrating modern AI capabilities (LLMs, Gemini API, RAG) into production environments. Skilled in query optimization, Redis caching, and Dockerized environments. Fully exempt from military service (Honorable Discharge).
+I build backend systems and AI-powered developer tools, from real-time Laravel applications to RAG pipelines that solve concrete engineering problems. I publish open-source Laravel packages on Packagist and work with Laravel, FastAPI, Vue 3, TypeScript, Redis, and Docker.
 
 ---
 
@@ -24,69 +24,77 @@ Results-driven Full-Stack Software Engineer with expertise in building high-perf
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Backend & Architecture** | PHP (Laravel), Python (FastAPI), RESTful APIs, Microservices, Event-Driven Architecture |
-| **Frontend Development** | Vue.js, Inertia.js, Tailwind CSS, JavaScript (ES6+), HTML5/CSS3, Blade |
-| **AI Integration** | Google Gemini API, OpenAI APIs, LangChain, RAG Systems, Speech Processing (Whisper) |
-| **Real-Time & Performance** | WebSockets (Laravel Reverb, Pusher), WebRTC Signaling, Redis (Queues & Caching), MySQL Optimization |
-| **DevOps & Tools** | Docker, Docker Compose, Git, GitHub Actions, Jenkins CI/CD, Linux (Ubuntu/WSL2), Postman |
+| **Backend & Architecture** | PHP (Laravel), Python (FastAPI), RESTful APIs, Event-Driven Architecture |
+| **Frontend Development** | Vue.js, TypeScript, Inertia.js, Tailwind CSS, JavaScript (ES6+), HTML5/CSS3, Blade |
+| **AI Integration** | Google Gemini API, OpenAI APIs, RAG Systems, ChromaDB |
+| **Real-Time & Performance** | WebSockets (Laravel Reverb), WebRTC Signaling, Redis (Queues & Caching), MySQL Optimization |
+| **DevOps & Tools** | Docker, Docker Compose, Git, GitHub Actions, Linux (Ubuntu/WSL2), Postman |
 
 ---
 
-### 🔥 Featured Projects & Open-Source Packages
+### 📦 Open-Source Packages
 
-#### 🧬 1. [Chimera](https://github.com/3bdel7med/Chimera) — AI Architectural Planner & Code Mutation Package
+| Package | What it does | Links |
+| :--- | :--- | :--- |
+| **Chimera** | AI-powered Laravel code generator with AST injection, self-healing tests, and rollbacks | [GitHub](https://github.com/3bdel7med/Chimera) · [Packagist](https://packagist.org/packages/abdelhmed/chimera) |
+| **Sentinel AI** | Exception aggregation, AI root-cause analysis, and Pest test generation | [GitHub](https://github.com/3bdel7med/sentinel-ai) · [Packagist](https://packagist.org/packages/abdelhmed/sentinel-ai) |
+| **OptiQuery AI** | Slow-query capture and AI-driven index recommendations with a RAG assistant | [GitHub](https://github.com/3bdel7med/optiquery_ai) |
+
+---
+
+### 🔥 Featured Projects
+
+#### 🧬 1. [Chimera](https://github.com/3bdel7med/Chimera) — AI Code Generator for Laravel
 > **Laravel Package | PHP AST Parser | Google Gemini API | Pest PHP | Open Source**
-> 📦 **Packagist:** [`abdelhmed/chimera`](https://packagist.org/packages/abdelhmed/chimera)
-- **Natural Language Feature Architecting:** Developed an open-source Laravel developer package that parses user descriptions into structured multi-step architectural blueprints using Google Gemini AI.
-- **AST Code Merging & Injections:** Engineered a core AST (Abstract Syntax Tree) engine that dynamically injects classes, models, routes, and migrations into existing Laravel applications without breaking conventions.
-- **Self-Healing Verification & Mutation Testing:** Implemented an automated pipeline running isolated Pest PHP tests and executing "Trust Score" mutation tests (planting deliberate bugs) to verify generated test suite coverage.
+- **Natural Language to Feature:** Turns plain-language requirements into multi-step plans and generated code using Google Gemini.
+- **AST Code Injection:** Uses nikic/PHP-Parser to inject classes, models, routes, and migrations into existing apps without breaking conventions.
+- **Self-Healing Tests:** Runs generated Pest tests and feeds failures back to the model for automatic fixes.
+- **Safety:** Dry-run plans, Git checkpoints, and full rollbacks, including migrations.
 
-#### ⚡ 2. [OptiQuery AI](https://github.com/3bdel7med/optiquery_ai) — Automated Database Optimization & Telemetry Platform
-> **Laravel | Vue.js 3 | Inertia.js | Gemini AI API | Laravel Reverb | Tailwind CSS**
-- **Real-Time Telemetry:** Engineered a platform that intercepts slow SQL queries using asynchronous background execution without impacting runtime performance.
-- **AI Optimization Engine:** Integrated Gemini AI Engine to parse SQL queries, evaluate Execution Plans (`EXPLAIN`), and generate optimized DDL index migrations.
-- **Broadcasting & SDK:** Built a real-time event pipeline via Laravel Reverb (WebSockets) to stream performance metrics to a developer dashboard with API key SDK integration.
+#### 🛡️ 2. [Sentinel AI](https://github.com/3bdel7med/sentinel-ai) — Exception Analysis & Test Generator
+> **Laravel Package | Google Gemini API | Pest PHP | Open Source**
+- **Smart Aggregation:** Groups duplicate exceptions and tracks occurrence counts to cut log noise.
+- **AI Root Cause Analysis:** Analyzes stack traces and returns explanations with suggested code fixes.
+- **Automated Regression Tests:** Generates ready-to-run Pest tests for captured exceptions.
 
-#### 🛒 3. [Bazzario](https://github.com/3bdel7med/Bazzario-Multi_vendor_ecommerce) — Multi-Vendor E-Commerce Platform
+#### ⚡ 3. [OptiQuery AI](https://github.com/3bdel7med/optiquery_ai) — AI Database Optimization Platform
+> **Laravel | Vue.js 3 | Inertia.js | FastAPI | ChromaDB | Gemini API | Laravel Reverb**
+- **Real-Time Capture:** Intercepts slow SQL queries asynchronously without impacting runtime performance.
+- **AI Optimization Engine:** Evaluates `EXPLAIN` plans and generates composite indexes and DDL migrations (up to 85% faster in my benchmarks).
+- **RAG Assistant:** FastAPI + ChromaDB assistant for asking about execution strategies from the live dashboard.
+
+#### 💬 4. [Nexus](https://github.com/3bdel7med/ChatApp) — Real-Time Chat & Calls Platform
+> **Laravel | Vue.js | Inertia.js | Laravel Reverb | WebRTC | Gemini API | Redis**
+- **Event-Driven Messaging:** WebSockets for instant messages, presence, and unread counters, with media and AI tasks offloaded to Redis queue workers.
+- **Calls & Media:** WebRTC signaling for audio/video calls, plus voice notes, file sharing, and group chats.
+- **AI Auto-Replies:** Gemini-powered contextual replies generated through background jobs.
+
+#### 🛒 5. [Bazzario](https://github.com/3bdel7med/Bazzario-Multi_vendor_ecommerce) — Multi-Vendor E-Commerce Platform
 > **Laravel | Vue.js | Redis | FastAPI | Laravel Reverb**
-- **Multi-Auth Ecosystem:** Architected a multi-vendor marketplace with separate guards and 3 isolated dashboard ecosystems for Admin, Vendor, and Customer roles.
-- **Real-Time Chat & AI Auto-Reply:** Implemented live messaging using Laravel Reverb (Redis presence channels) alongside an LLM-powered auto-reply microservice built with FastAPI and Laravel queues.
-
-#### 💬 4. [Nexus](https://github.com/3bdel7med/ChatApp) — High-Performance Real-Time & AI Communication Platform
-> **Laravel | WebSockets | WebRTC | Google Gemini API | Redis**
-- **Low-Latency Messaging:** Developed an event-driven messaging platform with low-latency WebSockets and offloaded media processing/AI tasks to Redis Queue Workers.
-- **AI & Media Calls:** Integrated Google Gemini API asynchronously and enabled real-time WebRTC signaling for audio/video calling and voice notes.
-
-#### 💊 5. [El-Shfaa Pharmacy E-Commerce](https://github.com/3bdel7med)
-> **Laravel | REST API | Laravel Sanctum | MySQL Optimization**
-- Architected a full Laravel REST API backend for product listings, cart management, and secure checkout secured with Laravel Sanctum.
-
-#### 🗳️ 6. [Smart Voting System](https://github.com/3bdel7med)
-> **Laravel | Vue.js | Pinia.js | WebSockets**
-- Engineered a secure real-time voting backend using WebSockets for live result updates with strict vote-integrity constraints.
+- **Multi-Auth Ecosystem:** Separate guards and 3 isolated dashboards for Admin, Vendor, and Customer roles.
+- **Real-Time Chat & AI Auto-Reply:** Live messaging via Laravel Reverb and an LLM auto-reply microservice built with FastAPI and Laravel queues.
 
 ---
 
-### 💼 Professional Experience
+### 💼 Experience
 
-- **Full-Stack Software Engineer | Freelance / Self-Employed** *(Aug 2026 - Present)*
-  * Designed and deployed scalable full-stack applications using Laravel, Vue.js, and Docker for cross-border clients.
-  * Integrated LLMs and custom prompt workflows to automate client support and operational tasks.
+- **Backend & AI Systems Engineer | Self-Employed** *(Aug 2026 - Present)*
+  * Built and published open-source Laravel developer tools (Chimera, Sentinel AI, OptiQuery AI).
+  * Designed full-stack and real-time applications using Laravel, FastAPI, Vue 3, WebSockets, and Docker.
 - **PHP Developer | Upwork (Freelance)** *(Jul 2023 - Mar 2024)*
-  * Built secure RESTful APIs and optimized complex MySQL queries with Redis caching strategies to improve response times.
-- **PHP Developer Trainee | Information Technology Institute (ITI)** *(Aug 2022 - Sep 2022)*
-  * Developed backend components adhering to MVC architectural patterns and clean code standards.
+  * Built secure REST APIs in Laravel and optimized MySQL indexing and queries, with Redis caching and background queues.
+- **PHP Developer Intern | Information Technology Institute (ITI)** *(Aug 2022 - Sep 2022)*
+  * Developed backend components following MVC and clean code practices.
 
 ---
 
-### 🎓 Education & Military Status
+### 🎓 Education
 
-- **Bachelor's Degree in Electronic Engineering** — Menoufia University
-- **Military Service:** Completed with Honorable Discharge (Jan 2025 – Mar 2026)
+- **Bachelor of Engineering, Electronics & Telecommunications Engineering** — Menoufia University (2019 - 2024)
 - **Languages:** Arabic (Native), English (Professional)
 
 ---
 
 <div align="center">
-  <p>📫 <b>Get in touch:</b> <a href="mailto:abdelhmedfthy3702@gmail.com">abdelhmedfthy3702@gmail.com</a> | 📱 (+20) 1123281471</p>
+  <p>📫 <b>Get in touch:</b> <a href="mailto:abdelhmedfthy3702@gmail.com">abdelhmedfthy3702@gmail.com</a></p>
 </div>
